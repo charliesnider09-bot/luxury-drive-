@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Luxury Drive — entertainment, sports and trending stories worth talking about.">
+  <title>Luxury Drive | What's Trending</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"><span>THE CULTURE. THE GAME. THE MOMENT.</span><span id="today"></span></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Luxury Drive home"><span class="brand-mark">LD</span><span>LUXURY <b>DRIVE</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    <nav id="nav"><a href="#latest">Latest</a><a href="#entertainment">Entertainment</a><a href="#sports">Sports</a><a href="#trending">Trending</a><a href="#about">About</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR DAILY CULTURE FIX</p>
+        <h1>Big stories.<br><em>Fresh perspective.</em></h1>
+        <p class="hero-text">The entertainment, sports and trending conversations shaping what everyone’s talking about.</p>
+        <a class="button" href="#latest">Explore the latest <span>↗</span></a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Stadium lights and energetic crowd">
+        <div class="hero-caption"><span>THE DAILY EDIT</span><strong>Stay in the know.</strong></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Site topics"><span>ENTERTAINMENT</span><i>✦</i><span>SPORTS</span><i>✦</i><span>WHAT'S TRENDING</span><i>✦</i><span>THE DAILY EDIT</span></section>
+
+    <section class="section" id="latest">
+      <div class="section-heading"><div><p class="eyebrow">HANDPICKED FOR YOU</p><h2>Latest stories</h2></div><span class="section-note">A starting lineup of stories</span></div>
+      <div class="feature-grid">
+        <article class="story-card large">
+          <div class="story-image img-culture"><span class="category">ENTERTAINMENT</span></div>
+          <div class="story-body"><p class="meta">CULTURE DESK · 4 MIN READ</p><h3>Why big-screen moments still bring people together</h3><p>From opening-weekend excitement to the conversations after the credits, shared entertainment moments have a way of becoming part of the culture.</p><a href="#about" class="read-link">Read the editor's note ↗</a></div>
+        </article>
+        <article class="story-card">
+          <div class="story-image img-arena"><span class="category">SPORTS</span></div>
+          <div class="story-body"><p class="meta">SPORTS DESK · 3 MIN READ</p><h3>The details that make a great game unforgettable</h3><p>Momentum, teamwork and a little drama can turn an ordinary matchup into a lasting memory.</p><a href="#about" class="read-link">Read the editor's note ↗</a></div>
+        </article>
+        <article class="story-card">
+          <div class="story-image img-tech"><span class="category">TRENDING</span></div>
+          <div class="story-body"><p class="meta">TREND WATCH · 3 MIN READ</p><h3>How online trends travel from niche to everywhere</h3><p>A closer look at the creativity, communities and timing behind the next big conversation.</p><a href="#about" class="read-link">Read the editor's note ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="ad-band" aria-label="Advertisement space">
+      <div><span class="ad-label">ADVERTISEMENT</span><h3>Your brand could be here.</h3><p>This space is reserved for a future advertising partner.</p></div>
+      <span class="ad-size">SPONSORED SPACE</span>
+    </section>
+
+    <section class="section split-section">
+      <div id="entertainment" class="topic-panel">
+        <p class="eyebrow">ON THE CULTURE RADAR</p><h2>Entertainment</h2>
+        <p>Film, music, creators and the moments that become conversation starters.</p>
+        <ul><li>New releases and what to watch</li><li>Creator culture and internet moments</li><li>Music, style and pop-culture explainers</li></ul>
+        <a href="#newsletter" class="read-link">Get the weekly edit ↗</a>
+      </div>
+      <div id="sports" class="topic-panel sports-panel">
+        <p class="eyebrow">BEYOND THE SCORE</p><h2>Sports</h2>
+        <p>Big performances, standout stories and the human side of competition.</p>
+        <ul><li>Game-day storylines</li><li>Athletes and team culture</li><li>Explainers for fans and newcomers</li></ul>
+        <a href="#newsletter" class="read-link">Get the weekly edit ↗</a>
+      </div>
+    </section>
+
+    <section class="trending-section" id="trending">
+      <div class="section-heading"><div><p class="eyebrow">WHAT PEOPLE ARE TALKING ABOUT</p><h2>Trending topics</h2></div></div>
+      <div class="trend-list">
+        <a href="#about"><span class="trend-number">01</span><span><b>Creator economy</b><small>How digital creators build communities</small></span><span class="trend-arrow">↗</span></a>
+        <a href="#about"><span class="trend-number">02</span><span><b>Game-day culture</b><small>Fashion, rituals and fan traditions</small></span><span class="trend-arrow">↗</span></a>
+        <a href="#about"><span class="trend-number">03</span><span><b>Streaming spotlight</b><small>How audiences choose what to watch</small></span><span class="trend-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div><p class="eyebrow">THE LUXURY DRIVE WEEKLY</p><h2>Good stories.<br><em>Delivered occasionally.</em></h2><p>Get a short roundup of entertainment, sports and trending topics.</p></div>
+      <form id="signupForm"><label for="email">Email address</label><div class="email-row"><input id="email" type="email" placeholder="you@example.com" required><button type="submit">Sign up ↗</button></div><small id="formMessage">Demo form only — connect an email service before collecting subscribers.</small></form>
+    </section>
+
+    <section class="about section" id="about"><p class="eyebrow">ABOUT LUXURY DRIVE</p><h2>Curious by nature.<br><em>Always in the conversation.</em></h2><p>Luxury Drive is an independent editorial-style demo covering entertainment, sports and trending topics. We aim to keep things engaging, clear and easy to explore. Stories on this starter site are sample copy, not breaking news or current reporting.</p></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">LD</span><span>LUXURY <b>DRIVE</b></span></a><span>© <span id="year"></span> Luxury Drive. Built for what's next.</span><a href="mailto:hello@yourdomain.example">Contact</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
